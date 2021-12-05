@@ -1,0 +1,20 @@
+# Created using wingetcreate 0.4.3.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
+
+PackageIdentifier: IrfanSkiljan.IrfanView-German
+PackageVersion: 4.59
+InstallerSwitches:
+  Silent: /silent
+  SilentWithProgress: /silent
+Installers:
+- Architecture: x64
+  InstallerType: exe
+  InstallerUrl: https://download2.irfanview.de/iview458g_x64_setup.exe
+  InstallerSha256: E7FEC27016E46CED330E460EA0053378502FBC264B4D9361529ABC278050A9DA
+- Architecture: x86
+  InstallerType: exe
+  InstallerUrl: https://download2.irfanview.de/iview458g_setup.exe
+  InstallerSha256: 70C90164C50D52B3FFA415097F673D408B99F08B4FFE97D40979061E7FF7BDBE
+ManifestType: installer
+ManifestVersion: 1.0.0
+
