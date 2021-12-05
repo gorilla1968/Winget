@@ -1,0 +1,147 @@
+# Created using wingetcreate 0.4.3.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
+PackageIdentifier: IrfanSkiljan.IrfanView-German
+PackageVersion: 4.59
+MinimumOSVersion: 10.0.0.0
+FileExtensions:
+  - ANI
+  - CUR
+  - AWD
+  - B3D
+  - BMP
+  - DIB
+  - CAM
+  - CLP
+  - CPT
+  - CRW
+  - CR2
+  - CR3
+  - DCM
+  - ARC
+  - IMA
+  - DDS
+  - DJVU
+  - IW44
+  - DPX
+  - CIN
+  - DXF
+  - DWG
+  - HPGL
+  - CGM
+  - ECW
+  - EMF
+  - EPS
+  - PS
+  - AI
+  - EXR
+  - FITS
+  - FLIF
+  - FPX
+  - G3
+  - GIF
+  - HDR
+  - HEIC
+  - AVIF
+  - ICL
+  - ICO
+  - ICS
+  - IFF
+  - LBM
+  - IMG
+  - JP2
+  - JPC
+  - J2K
+  - JPG
+  - JPEG
+  - JLS
+  - JPM
+  - MNG
+  - JNG
+  - mrSID
+  - SID
+  - PBM
+  - PCD
+  - PCX
+  - DCX
+  - PDF
+  - PDN
+  - PGM
+  - PNG
+  - PPM
+  - PSD
+  - PSP
+  - PVR
+  - RAS
+  - SUN
+  - RAW
+  - YUV
+  - RLE
+  - SFF
+  - SFW
+  - SGI
+  - SIF
+  - SWF
+  - FLV
+  - SVG
+  - TGA
+  - TIF
+  - TIFF
+  - TTF
+  - WAD
+  - WAL
+  - WBC
+  - WBZ
+  - WBMP
+  - WebP
+  - WMF
+  - WSQ
+  - XBM
+  - XCF
+  - XPM
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+InstallerSwitches:
+  Silent: /silent
+  SilentWithProgress: /silent
+Installers:
+- Architecture: x64
+  InstallerType: exe
+  InstallerUrl: https://download2.irfanview.de/iview458g_x64_setup.exe
+  InstallerSha256: E7FEC27016E46CED330E460EA0053378502FBC264B4D9361529ABC278050A9DA
+  InstallerSwitches:
+      Custom: /desktop=1 /thumbs=0 /group=1 /allusers=1 /assoc=0
+    Scope: machine
+    InstallerLocale: de-DE
+    UpgradeBehavior: install
+- Architecture: x64
+  InstallerType: exe
+  InstallerUrl: https://download2.irfanview.de/iview458g_x64_setup.exe
+  InstallerSha256: E7FEC27016E46CED330E460EA0053378502FBC264B4D9361529ABC278050A9DA
+  InstallerSwitches:
+      Custom: /desktop=1 /thumbs=0 /group=1 /allusers=0 /assoc=0
+    Scope: user
+    InstallerLocale: de-DE
+    UpgradeBehavior: install	
+- Architecture: x86
+  InstallerType: exe
+  InstallerUrl: https://download2.irfanview.de/iview458g_setup.exe
+  InstallerSha256: 70C90164C50D52B3FFA415097F673D408B99F08B4FFE97D40979061E7FF7BDBE
+  InstallerSwitches:
+      Custom: /desktop=1 /thumbs=0 /group=1 /allusers=1 /assoc=0
+    Scope: machine
+    InstallerLocale: de-DE
+    UpgradeBehavior: install
+- Architecture: x86
+  InstallerType: exe
+  InstallerUrl: https://download2.irfanview.de/iview458g_setup.exe
+  InstallerSha256: 70C90164C50D52B3FFA415097F673D408B99F08B4FFE97D40979061E7FF7BDBE
+  InstallerSwitches:
+      Custom: /desktop=1 /thumbs=0 /group=1 /allusers=0 /assoc=0
+    Scope: user
+    InstallerLocale: de-DE
+    UpgradeBehavior: install	
+ManifestType: installer
+ManifestVersion: 1.0.0
+
